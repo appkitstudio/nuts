@@ -1,4 +1,4 @@
-# Nuts
+# Nuts for Bump
 
 Nuts is a simple (and smart) application to serve desktop-application releases.
 
