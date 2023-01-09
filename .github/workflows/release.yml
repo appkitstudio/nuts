@@ -50,8 +50,8 @@ jobs:
         with:
           file: ./Dockerfile
           tags: |
-            ghcr.io/turnstileio/nuts:latest
-            ghcr.io/turnstileio/nuts:v${{ needs.release.outputs.released_version }}
+            ghcr.io/appkitstudio/nuts:latest
+            ghcr.io/appkitstudio/nuts:v${{ needs.release.outputs.released_version }}
           push: true
 
       - name: Image digest
